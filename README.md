@@ -1,1 +1,1 @@
-# OTA-project-raspberry-pi
+# OTA-project-virtual-ECU
