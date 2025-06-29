@@ -6,35 +6,41 @@ cmake_minimum_required(VERSION 3.15)
 project(VirtualECU VERSION 1.0 LANGUAGES CXX)
 
 # --- Standard and Properties ---
-# Set the C++ standard to C++17. This gives us modern features.
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # --- Find Dependencies ---
-# Find the OpenSSL library, which we will use for SHA-256 hashing.
-# It's required, and the build will fail if it's not found.
 find_package(OpenSSL REQUIRED)
 
-# Find the Boost library. We will use Boost.Asio for networking (DoIP).
-# We specify the 'asio' component and that it's required.
-find_package(Boost REQUIRED COMPONENTS asio)
+# Find the Boost library. We will keep this as it finds the necessary paths.
+set(Boost_NO_BOOST_CMAKE ON)
+find_package(Boost REQUIRED COMPONENTS system)
+
 
 # --- Target Definition ---
-# Add our main executable target named "TargetECU".
 # It will be built from the "main.cpp" source file.
 add_executable(TargetECU main.cpp)
 
-# --- Linking Dependencies ---
-# Link the found libraries to our executable.
-# This makes the functions from OpenSSL and Boost available in our code.
+
+# --- Linking Dependencies (NEW DIRECT STRATEGY) ---
+
+# 1. Manually add the Boost include directory to our target.
+#    Since Asio is mostly a header-only library, this is the most critical step.
+#    The ${Boost_INCLUDE_DIRS} variable is automatically set by a successful find_package(Boost) call.
+target_include_directories(TargetECU
+    PRIVATE
+    ${Boost_INCLUDE_DIRS}
+)
+
+# 2. Link the libraries we actually found.
+#    We are ONLY linking the 'system' component, which we know it found successfully.
+#    We are NOT linking 'Boost::asio' because that specific target was not created.
+#    The Asio code will be pulled in from the headers included above.
 target_link_libraries(TargetECU
     PRIVATE
-    # Link the cryptography library from OpenSSL
     OpenSSL::Crypto
-    # Link the Boost libraries we found
-    Boost::asio
+    Boost::system
 )
 
 # --- Installation ---
-# Optional: Define where to install the executable if someone runs "make install".
 install(TARGETS TargetECU DESTINATION bin)
