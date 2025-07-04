@@ -1,6 +1,6 @@
 # Virtual Automotive ECU with Secure OTA Updates with verification
 
-# **Virtual Automotive ECU with Secure OTA Updates: Project Report and Manual**
+# **Project Report and Manual**
 
 **Version:** 1.0
 **Date:** July 4, 2025
@@ -211,3 +211,4 @@ While this project uses direct TCP/IP sockets, an alternative method for simulat
     * In Terminal 1, listen for traffic: `candump vcan0`
     * In Terminal 2, generate traffic: `cangen vcan0`
 This setup allows tools like `python-can` to interact with the `vcan0` interface as if it were real hardware, providing a different but powerful simulation environment.
+
