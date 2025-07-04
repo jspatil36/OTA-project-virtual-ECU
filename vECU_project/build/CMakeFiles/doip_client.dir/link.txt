@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/doip_client.dir/client.cpp.o -o doip_client  /opt/homebrew/lib/libcrypto.dylib /opt/homebrew/lib/libboost_system.dylib
