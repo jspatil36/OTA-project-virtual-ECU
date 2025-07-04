@@ -245,6 +245,22 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h \
@@ -631,9 +647,11 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -1615,8 +1633,70 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
   /opt/homebrew/include/boost/type_traits/is_integral.hpp \
   /opt/homebrew/include/boost/type_traits/is_same.hpp \
   /opt/homebrew/include/boost/type_traits/remove_cv.hpp \
-  /opt/homebrew/include/boost/version.hpp
+  /opt/homebrew/include/boost/version.hpp \
+  /opt/homebrew/include/openssl/asn1.h \
+  /opt/homebrew/include/openssl/asn1err.h \
+  /opt/homebrew/include/openssl/bio.h \
+  /opt/homebrew/include/openssl/bioerr.h \
+  /opt/homebrew/include/openssl/bn.h \
+  /opt/homebrew/include/openssl/bnerr.h \
+  /opt/homebrew/include/openssl/configuration.h \
+  /opt/homebrew/include/openssl/core.h \
+  /opt/homebrew/include/openssl/core_dispatch.h \
+  /opt/homebrew/include/openssl/crypto.h \
+  /opt/homebrew/include/openssl/cryptoerr.h \
+  /opt/homebrew/include/openssl/cryptoerr_legacy.h \
+  /opt/homebrew/include/openssl/e_os2.h \
+  /opt/homebrew/include/openssl/evp.h \
+  /opt/homebrew/include/openssl/evperr.h \
+  /opt/homebrew/include/openssl/indicator.h \
+  /opt/homebrew/include/openssl/macros.h \
+  /opt/homebrew/include/openssl/obj_mac.h \
+  /opt/homebrew/include/openssl/objects.h \
+  /opt/homebrew/include/openssl/objectserr.h \
+  /opt/homebrew/include/openssl/opensslconf.h \
+  /opt/homebrew/include/openssl/opensslv.h \
+  /opt/homebrew/include/openssl/params.h \
+  /opt/homebrew/include/openssl/safestack.h \
+  /opt/homebrew/include/openssl/sha.h \
+  /opt/homebrew/include/openssl/stack.h \
+  /opt/homebrew/include/openssl/symhacks.h \
+  /opt/homebrew/include/openssl/types.h
 
+
+/opt/homebrew/include/openssl/types.h:
+
+/opt/homebrew/include/openssl/stack.h:
+
+/opt/homebrew/include/openssl/safestack.h:
+
+/opt/homebrew/include/openssl/opensslv.h:
+
+/opt/homebrew/include/openssl/opensslconf.h:
+
+/opt/homebrew/include/openssl/objectserr.h:
+
+/opt/homebrew/include/openssl/macros.h:
+
+/opt/homebrew/include/openssl/evperr.h:
+
+/opt/homebrew/include/openssl/evp.h:
+
+/opt/homebrew/include/openssl/e_os2.h:
+
+/opt/homebrew/include/openssl/cryptoerr_legacy.h:
+
+/opt/homebrew/include/openssl/core_dispatch.h:
+
+/opt/homebrew/include/openssl/core.h:
+
+/opt/homebrew/include/openssl/configuration.h:
+
+/opt/homebrew/include/openssl/bn.h:
+
+/opt/homebrew/include/openssl/bioerr.h:
+
+/opt/homebrew/include/openssl/bio.h:
 
 /opt/homebrew/include/boost/type_traits/remove_cv.hpp:
 
@@ -1636,23 +1716,23 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/system/is_error_condition_enum.hpp:
 
+/opt/homebrew/include/boost/system/error_condition.hpp:
+
 /opt/homebrew/include/boost/system/error_code.hpp:
+
+/opt/homebrew/include/boost/system/errc.hpp:
 
 /opt/homebrew/include/boost/system/detail/throws.hpp:
 
-/opt/homebrew/include/boost/mpl/aux_/config/static_constant.hpp:
-
-/opt/homebrew/include/boost/system/detail/system_category_message.hpp:
-
 /opt/homebrew/include/boost/system/detail/system_category_impl.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
+/opt/homebrew/include/boost/system/detail/std_category_impl.hpp:
 
-/opt/homebrew/include/boost/system/detail/system_category.hpp:
+/opt/homebrew/include/boost/system/detail/std_category.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
+/opt/homebrew/include/boost/system/detail/is_same.hpp:
 
-/opt/homebrew/include/boost/system/detail/snprintf.hpp:
+/opt/homebrew/include/boost/system/detail/interop_category.hpp:
 
 /opt/homebrew/include/boost/asio/impl/multiple_exceptions.ipp:
 
@@ -1662,9 +1742,9 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/system/detail/error_category_impl.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h:
-
 /opt/homebrew/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h:
 
 /opt/homebrew/include/boost/system/detail/error_category.hpp:
 
@@ -1714,9 +1794,9 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/preprocessor/stringize.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
 /opt/homebrew/include/boost/mpl/void_fwd.hpp:
 
@@ -1783,12 +1863,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/asio/detail/object_pool.hpp:
 
 /opt/homebrew/include/boost/operators.hpp:
-
-/opt/homebrew/include/boost/asio/ip/impl/host_name.ipp:
-
-/opt/homebrew/include/boost/preprocessor/logical/compl.hpp:
-
-/opt/homebrew/include/boost/system/is_error_code_enum.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
@@ -1897,6 +1971,12 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/detail/workaround.hpp:
 
 /opt/homebrew/include/boost/date_time/year_month_day.hpp:
+
+/opt/homebrew/include/boost/system/is_error_code_enum.hpp:
+
+/opt/homebrew/include/boost/asio/ip/impl/host_name.ipp:
+
+/opt/homebrew/include/boost/preprocessor/logical/compl.hpp:
 
 /opt/homebrew/include/boost/date_time/time_system_counted.hpp:
 
@@ -2124,10 +2204,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/asio/local/connect_pair.hpp:
 
-/opt/homebrew/include/boost/config/detail/select_compiler_config.hpp:
-
-/opt/homebrew/include/boost/asio/is_executor.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/private_constructor_tag.h:
 
 /opt/homebrew/include/boost/asio/is_contiguous_iterator.hpp:
@@ -2173,6 +2249,8 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/asio/ip/host_name.hpp:
 
 /opt/homebrew/include/boost/asio/ip/detail/socket_option.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
 /opt/homebrew/include/boost/asio/ip/detail/impl/endpoint.ipp:
 
@@ -2248,9 +2326,9 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/asio/impl/execution_context.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
-
 /opt/homebrew/include/boost/asio/detail/impl/thread_context.ipp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
 /opt/homebrew/include/boost/asio/impl/error.ipp:
 
@@ -2275,6 +2353,8 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/asio/impl/cancel_after.hpp:
 
 /opt/homebrew/include/boost/asio/impl/as_tuple.hpp:
+
+/opt/homebrew/include/openssl/sha.h:
 
 /opt/homebrew/include/boost/asio/impl/any_io_executor.ipp:
 
@@ -2448,10 +2528,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/asio/detail/reactive_socket_connect_op.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h:
-
-/opt/homebrew/include/boost/system/error_category.hpp:
-
 /opt/homebrew/include/boost/date_time/gregorian/greg_day_of_year.hpp:
 
 /opt/homebrew/include/boost/asio/detail/reactive_socket_accept_op.hpp:
@@ -2530,15 +2606,13 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/asio/detail/impl/posix_serial_port_service.ipp:
 
+/opt/homebrew/include/openssl/obj_mac.h:
+
 /opt/homebrew/include/boost/asio/prefer.hpp:
 
 /opt/homebrew/include/boost/numeric/conversion/bounds.hpp:
 
 /opt/homebrew/include/boost/asio/detail/impl/posix_mutex.ipp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exception_guard.h:
-
-/opt/homebrew/include/boost/system/generic_category.hpp:
 
 /opt/homebrew/include/boost/asio/detail/impl/kqueue_reactor.hpp:
 
@@ -2604,11 +2678,13 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/smart_ptr/detail/deprecated_macros.hpp:
 
+/opt/homebrew/include/openssl/symhacks.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros:
 
 /opt/homebrew/include/boost/assert/source_location.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
 
 /opt/homebrew/include/boost/asio/detail/deadline_timer_service.hpp:
 
@@ -2641,6 +2717,8 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/asio/detail/call_stack.hpp:
 
 /opt/homebrew/include/boost/asio/detail/buffered_stream_storage.hpp:
+
+/opt/homebrew/include/openssl/indicator.h:
 
 /opt/homebrew/include/boost/asio/detail/buffer_sequence_adapter.hpp:
 
@@ -2705,6 +2783,8 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/asio/cancel_after.hpp:
 
 /opt/homebrew/include/boost/asio/buffered_stream_fwd.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
 
 /opt/homebrew/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
 
@@ -2844,15 +2924,15 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/aliasing_iterator.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h:
-
 /opt/homebrew/include/boost/asio/impl/any_completion_executor.ipp:
 
 /opt/homebrew/include/boost/preprocessor/logical/limits/bool_256.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
+
+/opt/homebrew/include/boost/system/detail/system_category_message.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/static_constant.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h:
 
@@ -2879,10 +2959,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h:
-
-/opt/homebrew/include/boost/asio/bind_immediate_executor.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:
 
 /opt/homebrew/include/boost/asio/detail/impl/service_registry.hpp:
 
@@ -2964,15 +3040,31 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory.h:
+/opt/homebrew/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wchar.h:
+
+/opt/homebrew/include/boost/asio/detail/impl/posix_event.ipp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h:
 
 /opt/homebrew/include/boost/asio/detail/consuming_buffers.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
+
+/opt/homebrew/include/openssl/bnerr.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_socklen_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h:
 
@@ -3014,6 +3106,14 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
+
+/opt/homebrew/include/boost/system/detail/system_category.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:
@@ -3053,10 +3153,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_class.h:
-
-/opt/homebrew/include/boost/system/detail/generic_category_message.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 
@@ -3112,8 +3208,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/net/net_kev.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:
-
 /opt/homebrew/include/boost/asio/detail/composed_work.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h:
@@ -3162,6 +3256,8 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/mpl/aux_/integral_wrapper.hpp:
 
+/opt/homebrew/include/openssl/asn1.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:
@@ -3170,11 +3266,15 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/align/detail/is_alignment.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/invocable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
 
@@ -3220,14 +3320,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/shared_mutex:
 
-/opt/homebrew/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wchar.h:
-
-/opt/homebrew/include/boost/asio/detail/impl/posix_event.ipp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
@@ -3266,9 +3358,17 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:
+
+/opt/homebrew/include/boost/config/detail/select_stdlib_config.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h:
 
@@ -3285,12 +3385,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/asio/read_until.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/ioccom.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
 
 /opt/homebrew/include/boost/smart_ptr/detail/sp_counted_base.hpp:
 
@@ -3388,9 +3482,9 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/static_assert.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
+/opt/homebrew/include/boost/system/generic_category.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward_like.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exception_guard.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/declval.h:
 
@@ -3532,10 +3626,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/asio/detail/date_time_fwd.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/to_gcc_order.h:
 
 /opt/homebrew/include/boost/date_time/date_clock_device.hpp:
@@ -3606,8 +3696,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_final.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
 /opt/homebrew/include/boost/asio/detail/socket_types.hpp:
@@ -3656,13 +3744,13 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/min_max.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/netdb.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/min_max.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
 
@@ -3675,8 +3763,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_header_macro.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/datasizeof.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate.h:
 
@@ -3750,9 +3836,15 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stat.h:
 
+/opt/homebrew/include/boost/system/error_category.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h:
+
 /opt/homebrew/include/boost/preprocessor/array/size.hpp:
 
 /opt/homebrew/include/boost/asio/is_applicable_property.hpp:
+
+/opt/homebrew/include/openssl/params.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
@@ -3782,6 +3874,10 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h:
 
+/opt/homebrew/include/boost/system/detail/generic_category_message.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_class.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
 /opt/homebrew/include/boost/preprocessor/control/detail/limits/while_256.hpp:
@@ -3796,11 +3892,7 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
 
@@ -3811,8 +3903,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h:
-
-/opt/homebrew/include/boost/system/detail/interop_category.hpp:
 
 /opt/homebrew/include/boost/preprocessor/control/iif.hpp:
 
@@ -3854,11 +3944,11 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/asio/windows/basic_stream_handle.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h:
 
@@ -3924,25 +4014,27 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_socklen_t.h:
+/opt/homebrew/include/boost/numeric/conversion/detail/sign_mixture.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h:
+
+/opt/homebrew/include/boost/asio/detail/strand_executor_service.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_integral.hpp:
+
+/opt/homebrew/include/boost/asio/detail/bind_handler.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
-
-/opt/homebrew/include/boost/asio/ip/impl/network_v4.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
 
 /opt/homebrew/include/boost/asio/detail/signal_op.hpp:
 
@@ -3953,6 +4045,8 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
 /opt/homebrew/include/boost/asio/coroutine.hpp:
+
+/opt/homebrew/include/openssl/asn1err.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h:
 
@@ -3969,6 +4063,14 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:
+
+/opt/homebrew/include/boost/preprocessor/facilities/identity.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h:
 
@@ -4024,20 +4126,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic.h:
 
-/opt/homebrew/include/boost/system/detail/std_category.hpp:
-
-/opt/homebrew/include/boost/asio/ip/impl/address_v6.ipp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:
-
-/opt/homebrew/include/boost/asio/impl/append.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
@@ -4062,10 +4150,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
@@ -4088,6 +4172,12 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/termios.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h:
+
+/opt/homebrew/include/boost/asio/ip/impl/network_v4.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
+
 /opt/homebrew/include/boost/mpl/bool.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
@@ -4108,14 +4198,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/netinet/in.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
 
 /opt/homebrew/include/boost/asio/handler_continuation_hook.hpp:
@@ -4131,6 +4213,10 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/aliasing_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table:
 
@@ -4154,11 +4240,7 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h:
-
-/opt/homebrew/include/boost/preprocessor/facilities/identity.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h:
 
@@ -4173,6 +4255,10 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/istream.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
 
@@ -4198,9 +4284,13 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
-/opt/homebrew/include/boost/numeric/conversion/detail/sign_mixture.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/netinet/in.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
 
@@ -4212,11 +4302,11 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
 
-/opt/homebrew/include/boost/date_time/gregorian/greg_day.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
 
@@ -4227,10 +4317,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h:
 
 /opt/homebrew/include/boost/asio/detail/reactive_socket_recvmsg_op.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hypot.h:
 
@@ -4270,6 +4356,50 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h:
 
+/opt/homebrew/include/boost/version.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
+
+/opt/homebrew/include/boost/asio/detail/kqueue_reactor.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/predicate.h:
+
+/opt/homebrew/include/boost/asio/bind_immediate_executor.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
+
+/opt/homebrew/include/boost/asio/ip/impl/address_v6.ipp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:
+
+/opt/homebrew/include/boost/asio/impl/append.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h:
+
+/opt/homebrew/include/boost/config/detail/select_compiler_config.hpp:
+
+/opt/homebrew/include/boost/asio/is_executor.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/aliases.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/compiler.h:
@@ -4282,15 +4412,11 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
-/opt/homebrew/include/boost/preprocessor/list/fold_left.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/access.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception.h:
 
@@ -4301,6 +4427,14 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/ioccom.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
@@ -4324,17 +4458,9 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/semiregular.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
-
-/opt/homebrew/include/boost/asio/windows/overlapped_ptr.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
-
-/opt/homebrew/include/boost/version.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h:
+
+/opt/homebrew/include/openssl/crypto.h:
 
 /opt/homebrew/include/boost/config/helper_macros.hpp:
 
@@ -4350,8 +4476,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/derived_from.h:
 
-/opt/homebrew/include/boost/system/error_condition.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_reference_with.h:
@@ -4360,9 +4484,9 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
@@ -4374,11 +4498,9 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
-/opt/homebrew/include/boost/preprocessor/list/limits/fold_left_256.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
-
 /opt/homebrew/include/boost/asio/buffer.hpp:
+
+/opt/homebrew/include/openssl/cryptoerr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h:
 
@@ -4392,10 +4514,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
-
-/opt/homebrew/include/boost/system/detail/mutex.hpp:
-
 /opt/homebrew/include/boost/asio/detail/std_fenced_block.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h:
@@ -4403,8 +4521,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
-
-/opt/homebrew/include/boost/system/errc.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h:
 
@@ -4431,6 +4547,10 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/voidify.h:
+
+/opt/homebrew/include/boost/preprocessor/list/fold_left.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /opt/homebrew/include/boost/asio/detail/assert.hpp:
 
@@ -4466,6 +4586,12 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
 
+/opt/homebrew/include/boost/asio/windows/overlapped_ptr.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
+
 /opt/homebrew/include/boost/asio/detail/completion_handler.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:
@@ -4480,6 +4606,8 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort.h:
 
+/opt/homebrew/include/boost/date_time/gregorian/greg_day.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h:
@@ -4488,11 +4616,11 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward_like.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/concepts.h:
 
@@ -4574,7 +4702,19 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/asio/completion_condition.hpp:
 
+/opt/homebrew/include/openssl/objects.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
+
+/opt/homebrew/include/boost/system/detail/mutex.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
 /opt/homebrew/include/boost/preprocessor/facilities/expand.hpp:
 
@@ -4587,6 +4727,8 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/destruct_n.h:
 
 /opt/homebrew/include/boost/numeric/conversion/converter_policies.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
 
@@ -4609,14 +4751,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h:
-
-/opt/homebrew/include/boost/asio/detail/strand_executor_service.hpp:
-
-/opt/homebrew/include/boost/type_traits/is_integral.hpp:
-
-/opt/homebrew/include/boost/asio/detail/bind_handler.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
 
@@ -4644,7 +4778,7 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/predicate.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
 /opt/homebrew/include/boost/mpl/aux_/config/integral.hpp:
 
@@ -4659,6 +4793,10 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
+
+/opt/homebrew/include/boost/preprocessor/list/limits/fold_left_256.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
 
@@ -4690,6 +4828,10 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace.h:
@@ -4703,8 +4845,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
@@ -4722,8 +4862,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count.h:
@@ -4734,11 +4872,21 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
 
+/opt/homebrew/include/boost/system/detail/snprintf.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
+
 /opt/homebrew/include/boost/smart_ptr/detail/sp_noexcept.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/advance.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/empty.h:
 
@@ -4747,8 +4895,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/destructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/fence.h:
-
-/opt/homebrew/include/boost/system/detail/is_same.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:
 
@@ -4776,12 +4922,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_param.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h:
-
-/opt/homebrew/include/boost/asio/detail/kqueue_reactor.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h:
@@ -4796,11 +4936,11 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 
 /opt/homebrew/include/boost/date_time/compiler_config.hpp:
 
-/opt/homebrew/include/boost/config/detail/select_stdlib_config.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h:
-
-/opt/homebrew/include/boost/system/detail/std_category_impl.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h:
 
@@ -4815,8 +4955,6 @@ CMakeFiles/doip_client.dir/client.cpp.o: /Users/jayeshpatil/Library/Mobile\ Docu
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h:
 

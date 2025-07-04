@@ -892,6 +892,7 @@ CMakeFiles/TargetECU.dir/main.cpp.o: /Users/jayeshpatil/Library/Mobile\ Document
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Users/jayeshpatil/Library/Mobile\ Documents/com~apple~CloudDocs/003\ Work/002\ Side\ Projects/OTA/OTA-project-virtual-ECU/vECU_project/doip_server.hpp \
   /Users/jayeshpatil/Library/Mobile\ Documents/com~apple~CloudDocs/003\ Work/002\ Side\ Projects/OTA/OTA-project-virtual-ECU/vECU_project/doip_session.hpp \
+  /Users/jayeshpatil/Library/Mobile\ Documents/com~apple~CloudDocs/003\ Work/002\ Side\ Projects/OTA/OTA-project-virtual-ECU/vECU_project/ecu_state.hpp \
   /Users/jayeshpatil/Library/Mobile\ Documents/com~apple~CloudDocs/003\ Work/002\ Side\ Projects/OTA/OTA-project-virtual-ECU/vECU_project/nvram_manager.hpp \
   /opt/homebrew/include/boost/align/aligned_alloc.hpp \
   /opt/homebrew/include/boost/align/detail/aligned_alloc_posix.hpp \
@@ -2874,6 +2875,8 @@ CMakeFiles/TargetECU.dir/main.cpp.o: /Users/jayeshpatil/Library/Mobile\ Document
 /opt/homebrew/include/boost/asio/impl/read.hpp:
 
 /Users/jayeshpatil/Library/Mobile\ Documents/com~apple~CloudDocs/003\ Work/002\ Side\ Projects/OTA/OTA-project-virtual-ECU/vECU_project/nvram_manager.hpp:
+
+/Users/jayeshpatil/Library/Mobile\ Documents/com~apple~CloudDocs/003\ Work/002\ Side\ Projects/OTA/OTA-project-virtual-ECU/vECU_project/ecu_state.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
 

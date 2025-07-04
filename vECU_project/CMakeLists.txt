@@ -12,10 +12,7 @@ set(Boost_NO_BOOST_CMAKE ON)
 find_package(Boost REQUIRED COMPONENTS system)
 
 # --- Target Definitions ---
-# Add the ECU executable from the current folder
 add_executable(TargetECU main.cpp)
-
-# Add the new Client executable from the current folder
 add_executable(doip_client client.cpp)
 
 # --- Linking Dependencies for the ECU ---
@@ -30,6 +27,7 @@ target_link_libraries(TargetECU
 target_include_directories(doip_client PRIVATE ${Boost_INCLUDE_DIRS})
 target_link_libraries(doip_client
     PRIVATE
+    OpenSSL::Crypto
     Boost::system
 )
 

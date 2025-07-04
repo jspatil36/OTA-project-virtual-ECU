@@ -95,6 +95,7 @@ doip_client_EXTERNAL_OBJECTS =
 
 doip_client: CMakeFiles/doip_client.dir/client.cpp.o
 doip_client: CMakeFiles/doip_client.dir/build.make
+doip_client: /opt/homebrew/lib/libcrypto.dylib
 doip_client: /opt/homebrew/lib/libboost_system.dylib
 doip_client: CMakeFiles/doip_client.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/jayeshpatil/Library/Mobile Documents/com~apple~CloudDocs/003 Work/002 Side Projects/OTA/OTA-project-virtual-ECU/vECU_project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable doip_client"
